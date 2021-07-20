@@ -17,7 +17,7 @@
           fetch="https://github.com/ArrowOS" />
 
   <!-- Trees -->
-  <project path="device/xiaomi/ginkgo" name="device_xiaomi_ginkgo" remote="Dreadwyrm" revision="A11" />
+  <project path="device/xiaomi/ginkgo" name="device_xiaomi_ginkgo" remote="Dreadwyrm" revision="PB-11" />
   <project path="kernel/xiaomi/ginkgo" name="kernel_xiaomi_ginkgo" remote="XD" revision="xr" />
   <project path="vendor/xiaomi/ginkgo" name="vendor_xiaomi_ginkgo" remote="Dreadwyrm" revision="A11" />
   
