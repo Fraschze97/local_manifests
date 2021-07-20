@@ -4,8 +4,8 @@
   <remote name="Dreadwyrm"
           fetch="https://github.com/Dreadwyrm" />
 	
-  <remote name="madmax"
-          fetch="https://github.com/madmax7896" />
+  <remote name="XD"
+          fetch="https://github.com/Xtended-Devices" />
 	
   <remote name="trinket"
           fetch="https://github.com/trinket-devs" />
@@ -18,7 +18,7 @@
 
   <!-- Trees -->
   <project path="device/xiaomi/ginkgo" name="device_xiaomi_ginkgo" remote="Dreadwyrm" revision="A11" />
-  <project path="kernel/xiaomi/ginkgo" name="kernel_xiaomi_ginkgo" remote="madmax" revision="11.0" />
+  <project path="kernel/xiaomi/ginkgo" name="kernel_xiaomi_ginkgo" remote="XD" revision="xr" />
   <project path="vendor/xiaomi/ginkgo" name="vendor_xiaomi_ginkgo" remote="Dreadwyrm" revision="A11" />
   
   <!-- MIUI Camera -->
@@ -40,7 +40,7 @@
   <project path="vendor/qcom/opensource/power" name="android_vendor_qcom_opensource_power" remote="ArrowOS" revision="arrow-11.0" />
 
   <!-- Replace Custom Frameworks -->
-  <remove-project name="android_frameworks_av" />
-  <project path="frameworks/av" name="frameworks_av" remote="Dreadwyrm" revision="elle" />
+  <remove-project name="frameworks_av" />
+  <project path="frameworks/av" name="pb_frameworks_av" remote="Dreadwyrm" revision="eleven" />
   
 </manifest>
